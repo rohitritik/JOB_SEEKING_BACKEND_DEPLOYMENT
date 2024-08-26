@@ -25,7 +25,7 @@ app.use(express.urlencoded({extended:true})); //string to json format
 app.use(
     fileUpload({
         useTempFiles:true,
-        tempFileDir:"/temp/",  
+        tempFileDir:"/tmp/",  
     })
 );
 
